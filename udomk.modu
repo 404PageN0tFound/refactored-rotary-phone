@@ -1,0 +1,14 @@
+let udomk_version = "b0.0.1";
+let udomk_version_identifier = "refactored-rotary-phone";
+let modu_last_supported = "The last version of Modu which is supported with udomk is v0.5.0";
+let command = input();
+
+if command == "version" {
+  print("udomk ", udomk_version, "\n", udomk_version_identifier);
+}
+
+if command == "" {
+  print("Command has no value")
+}
+ 
+print("Ran with udomk ", udomk_version, "\n", udomk_version_identifier, " using kuiqommand");
