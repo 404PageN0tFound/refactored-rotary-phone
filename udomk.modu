@@ -9,7 +9,7 @@ if kuiqommand == false {
   print("Ran with udomk ", udomk_version, " ", udomk_version_identifier);
 }
 
-if kuiqommand == false {
+if kuiqommand == true {
 
 if command == "version" {
   print("udomk ", udomk_version, " ", udomk_version_identifier);
