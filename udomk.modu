@@ -4,6 +4,13 @@ let modu_last_supported = "The last version of Modu which is supported with udom
 let kuiqommand = true;
 let command = input();
 
+if kuiqommand == false {
+  print("kuiqommand is false and this version of udomk doen't have non-kuiq commands.")
+  print("Ran with udomk ", udomk_version, " ", udomk_version_identifier);
+}
+
+if kuiqommand == false {
+
 if command == "version" {
   print("udomk ", udomk_version, " ", udomk_version_identifier);
 }
@@ -11,5 +18,9 @@ if command == "version" {
 if command == "" {
   print("Command has no value")
 }
- 
+
 print("Ran with udomk ", udomk_version, " ", udomk_version_identifier, " using kuiqommand");
+
+}
+
+
